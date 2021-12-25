@@ -1,6 +1,6 @@
 layout: page
-title: "PAGE TITLE"
+title: "About Me"
 permalink: /about/
 
 
-Testing
+Testing, this is Kenny's About Me
