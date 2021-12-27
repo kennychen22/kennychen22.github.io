@@ -1,3 +1,4 @@
+/* Introduction */
 * {
   margin: 0;
   padding: 0;
@@ -63,8 +64,12 @@ header h4 {
   opacity: 0;
   transition: ease-in-out 0.5s;
 }
+/* For introduction */
 
-
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
 
 
 
@@ -120,6 +125,8 @@ h2 {
 }
 
 
+
+/* Set up CSS grid layout */
 /* body {
   display: flex;
   flex-direction: column;
@@ -128,3 +135,7 @@ h2 {
   height: 100vh;
   background: #fcf3ec;
 } */
+
+body {
+  display: grid;
+}
