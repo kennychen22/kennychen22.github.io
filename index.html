@@ -10,6 +10,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<!-- carousel -->
+<link href="https://cdn.rawgit.com/anthonykrivonos/flix-carousel/65556d56/src/carousel.css" rel="stylesheet">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Personal Website</title>
 </head>
@@ -29,7 +32,7 @@
 
 
 
-<div>
+<div id='home' class='grid'>
   <nav class="topnav">
     <a class="active" href="#home">Home</a>
     <a href="#about">About</a>
@@ -57,13 +60,38 @@
 </a>
 </div>
 
-<div id="about" class="about">
+<div id="about" class="grid">
   <h1>This is my About section.</h1>
 </div>
 
-<div id="projects" class="projects">
-  <h1>This is my Projects section.
-</div></h1>
+<div id="projects" class="flex">
+<h1>This is my Projects section.</h1>
+<!-- https://codepen.io/joshhunt/pen/LVQZRa -->
+<div class="carousel">
+  <div class="carousel-row">
+    <div class="carousel-tile">
+      <i  style="font-size:60px;" class="fa fa-desktop"></i>
+      Tile 1
+    </div>
+    <div class="carousel-tile">
+      <i  style="font-size:60px;" class="fa fa-desktop"></i>
+      Tile 2
+    </div>
+    <div class="carousel-tile tooltip">
+      <i  style="font-size:60px;" class="fa fa-desktop"></i>
+      Tile 3
+      <span class="tooltiptext">ShinyApp</span>
+    </div>
+    <div class="carousel-tile">
+      <i  style="font-size:60px;" class="fa fa-desktop"></i>
+      Tile 4
+    </div>
+  </div>
+</div>
+
+</div>
+
+
 
 <script src="js/app.js"></script>
 </script>
