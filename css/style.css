@@ -71,28 +71,16 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
-h3 {
-    animation-duration: 8s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
+body, html {
+    margin: 0;
+    height:100%
 }
 
-h2 {
-  color: blue;
-}
-
-@keyframes slidein {
-  0% {
-    margin-left: 0%;
-  }
-  50% {
-    margin-left: 300px;
-  }
-  100% {
-    margin-left: 0%;
-  }
+section {
+    height:100vh;
+    width: 100vw;
+    margin-top: auto;
+    padding-top:100px
 }
 
 
@@ -100,6 +88,9 @@ h2 {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 /* Style the links inside the navigation bar */
