@@ -1,33 +1,26 @@
+
 /* Introduction */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: monaco;
+  /* font-family: 'JetBrains Mono', monospace; */
 }
 
 body {
-  /* background-color:#b7a5d3 */
+  background-color: #858FB9;
   transition: 0.5s all;
 }
 
-.lightCyan {
-  background-color: #DFFDFF;
+.first-bg {
+  background-color: #A3BACC;
 }
 
-.darkSkyBlue {
-  background-color: #90BEDE;
+.second-bg {
+  background-color: #C1DCDD;
 }
-
-.aquamarine {
-  background-color: #68EDC6;
-}
-
-.electricBlue {
-  background-color: #90F3FF;
-}
-
-
 
 header {
   position: relative;
@@ -102,17 +95,23 @@ section {
     padding-top: 100px
 }
 
-/* #home {
-  background-color: #b7a5d3;
+p {
+  /* margin: 200; */
+  padding: 35px;
+  color: Turquoise;
 }
 
-#projects {
-  background-color: red;
+div {
+  display: flex;
+  flex-direction: column;
 }
 
-#about {
-  background-color: red;
-} */
+div i {
+  font-size:600px;
+  background-color: grey;
+  display: block;
+}
+
 
 
 
@@ -146,6 +145,18 @@ section {
   background-color: #04AA6D;
   color: white;
 }
+
+
+#pfp {
+  align-content: center;
+  background-color: red;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+  display: flex;
+  width: 25%;
+}
+
 
 
 /* Tolltip hover for Projects Section */
