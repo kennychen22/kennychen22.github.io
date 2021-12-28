@@ -7,8 +7,27 @@
 }
 
 body {
-  background-color:#b7a5d3
+  /* background-color:#b7a5d3 */
+  transition: 0.5s all;
 }
+
+.lightCyan {
+  background-color: #DFFDFF;
+}
+
+.darkSkyBlue {
+  background-color: #90BEDE;
+}
+
+.aquamarine {
+  background-color: #68EDC6;
+}
+
+.electricBlue {
+  background-color: #90F3FF;
+}
+
+
 
 header {
   position: relative;
@@ -80,8 +99,21 @@ section {
     height:100vh;
     width: 100vw;
     margin-top: auto;
-    padding-top:100px
+    padding-top: 100px
 }
+
+/* #home {
+  background-color: #b7a5d3;
+}
+
+#projects {
+  background-color: red;
+}
+
+#about {
+  background-color: red;
+} */
+
 
 
 /* Add a black background color to the top navigation */
@@ -114,7 +146,6 @@ section {
   background-color: #04AA6D;
   color: white;
 }
-
 
 
 /* Tolltip hover for Projects Section */
@@ -150,28 +181,3 @@ section {
 <div class="tooltip">Hover over me
   <span class="tooltiptext">Tooltip text</span>
 </div>
-
-/* Set up CSS grid layout */
-/* body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #fcf3ec;
-} */
-
-/* .grid {
-  display: grid;
-}
-
-.flex {
-  display: flex;
-  flex-direction: row;
-}
-
-#projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 16px;
-} */
