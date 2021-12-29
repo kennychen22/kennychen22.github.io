@@ -101,15 +101,18 @@ p {
   color: Turquoise;
 }
 
-div {
+#home div {
   display: flex;
   flex-direction: column;
+  font-size:60px;
+  background-color: grey;
+  /* display: block; */
 }
 
-div i {
-  font-size:600px;
-  background-color: grey;
-  display: block;
+#home div div{
+  flex-direction: row;
+  font-size:15px;
+
 }
 
 
@@ -135,16 +138,17 @@ div i {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav a:hover, a.active  {
   background-color: #ddd;
   color: black;
+  cursor: pointer;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
+/* .topnav {
+  background-color: green;
   color: white;
-}
+} */
 
 
 #pfp {
