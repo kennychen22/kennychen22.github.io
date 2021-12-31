@@ -9,6 +9,8 @@
   /* font-family: 'JetBrains Mono', monospace; */
 }
 
+
+/* Change color of background when scroll */
 body {
   background-color: #858FB9;
   transition: 0.5s all;
@@ -92,29 +94,39 @@ section {
     height:100vh;
     width: 100vw;
     margin-top: auto;
-    padding-top: 100px
+    /* padding-top: 100px */
 }
 
-p {
-  /* margin: 200; */
-  padding: 35px;
-  color: Turquoise;
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
 }
 
-#home div {
-  display: flex;
-  flex-direction: column;
-  font-size:60px;
-  background-color: grey;
-  /* display: block; */
+.icon-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
-#home div div{
-  flex-direction: row;
-  font-size:15px;
-
+/* Center Name */
+#home p {
+  /* padding: 35px; */
+  color: black;
+  text-align: center;
+  font-size: 10vh;
 }
 
+#home i {
+  background: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 36px;
+  margin: 5px;
+  padding: 5px;
+}
 
 
 
@@ -125,6 +137,9 @@ p {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* Style the links inside the navigation bar */
@@ -158,7 +173,7 @@ p {
   margin-right: auto; */
   margin: auto;
   display: flex;
-  width: 25%;
+  width: 20%;
 }
 
 
